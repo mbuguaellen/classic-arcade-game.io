@@ -2,7 +2,7 @@
 
 ##  Arcade Game
 
-Provided visual assets and a game loop engine; using these tools  added a number of entities to the game including the player characters and enemies to recreate the classic arcade game Frogger.
+Provided visual assets and a game loop engine; using these tools  added a number of entities to the game including the player characters and enemies to recreate the arcade game.
 
 How to Play GAME:
 -  open the index.html
