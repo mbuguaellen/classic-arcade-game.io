@@ -20,8 +20,11 @@ Coding References
 -----------------
 
 - Udacity: Object-Oriented JavaScript 
+
 - Udacity: HTML5 Canvas
+
 - Stack Overflow
+
 - http://phrogz.net/js/classes/OOPinJS2.html
-- W3C Schools
+
 -https://developer.mozilla.org
