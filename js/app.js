@@ -130,13 +130,11 @@ Player.prototype.renderScoreBoard = function() {
     ctx.font = "16px Arial";
     ctx.strokeText("SCORE: ", 20, 30);
     ctx.strokeText("LEVEL: ", 150, 30);
-    ctx.strokeText("LIVE: ", 270, 30);
-    ctx.strokeText("GEMS: ", 390, 30);
+    ctx.strokeText("LIVES: ", 270, 30);
     ctx.font = "16px Arial";
     ctx.strokeText(score, 100, 30);
     ctx.strokeText(level, 230, 30);
     ctx.strokeText(lives, 340, 30);
-    ctx.strokeText(gemscount, 460, 30);
     ctx.save();
 };
 // This function is for moving the playe
