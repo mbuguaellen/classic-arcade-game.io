@@ -109,7 +109,7 @@ var Engine = (function(global) {
         }
 		
 		ctx.font = "normal 14pt Arial";
-		ctx.fillText("Please Select your player (press 1 to 5)", 100, 420);
+		ctx.fillText("Please Select your player (click num 1 to 5)", 100, 420);
 		
 		ctx.beginPath();
         ctx.strokeStyle = "#b3003b";
