@@ -30,3 +30,5 @@ Coding References
 - https://developer.mozilla.org
 
 - https://www.w3schools.com/graphics/canvas_text.asp
+
+![Preview Work](african.png)
