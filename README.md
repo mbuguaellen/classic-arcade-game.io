@@ -31,4 +31,4 @@ Coding References
 
 - https://www.w3schools.com/graphics/canvas_text.asp
 
-![Preview Work](african.png)
+![Preview Work](bugs.png)
