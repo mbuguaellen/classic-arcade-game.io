@@ -43,15 +43,20 @@ Enemy.prototype.render = function() {
 };
 // Now write your own player class
 var Player = function() {
+
     // Variables applied to each of our instances go here,
+
     // we've provided one for you to get started
 
     // The image/sprite for our players, this uses
+
     // a helper we've provided to easily load images
+
     this.sprite = playerimg;
-    this.x = 20 + 120 * (Math.floor(Math.random() * 4)); //randomize x position
+    this.x = 100 * (Math.floor(Math.random() * 4)); //randomize x position
     this.y = 350;
     this.speed = 10;
+
 };
 // Update the players's position, required method for game
 // Parameter: dt, a time delta between ticks
@@ -78,8 +83,6 @@ Player.prototype.update = function(dt) {
 	}
 	
 	
-	
-	
 };
 // Draw the player on the screen, required method for game
 Player.prototype.render = function() {
@@ -103,7 +106,7 @@ Player.prototype.checkCollisions = function() {
 // Reset the player when it loses life or reaches goals.
 Player.prototype.reset = function() {
     this.x = 100;
-    this.y = 400;
+    this.y = 350;
 };
 // Player moves to water when colliding with princess
 Player.prototype.water = function() {
@@ -137,7 +140,7 @@ Player.prototype.renderScoreBoard = function() {
     ctx.strokeText(lives, 340, 30);
     ctx.save();
 };
-// This function is for moving the playe
+// This function is for moving the player
 Player.prototype.handleInput = function(key) {
     if (key === 'left' && this.x > 0) {
         this.x -= TILE_WIDTH;
@@ -149,6 +152,7 @@ Player.prototype.handleInput = function(key) {
         this.y += TILE_HEIGHT;
     }
 };
+
 // Now instantiate your objects.
 // Place all enemy objects in an array called allEnemies
 // Place the player object in a variable called player
